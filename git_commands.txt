@@ -62,9 +62,9 @@
     Explanation: Undoes the most recent commit (moving the HEAD pointer back by one 
     commit) while keeping the modified files intact in the working directory.
 
-16. git remote add origin <GitHub_Repository_URL>
-    Explanation: Associates the local Git repository with a remote repository hosted 
-    on GitHub under the standard remote name 'origin'.
+16. git remote add origin https://github.com/angelkumar427/git-workflow-assignment.git
+    Explanation: Associates the local Git repository with the remote repository hosted 
+    on GitHub under the standard remote alias 'origin'.
 
 17. git push -u origin main
     Explanation: Pushes the local 'main' branch commits to GitHub and sets up 
